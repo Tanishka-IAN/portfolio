@@ -1,0 +1,284 @@
+/* Basic styling */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.table{
+    background-color: black;
+
+}
+nav{
+    margin-left: 140px;
+    font-size: 20px;
+    margin-top: 20px;
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+nav a {
+    text-decoration: none; /* remove underline */
+}
+nav a:hover{
+    text-decoration: underline;
+}
+
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    position: absolute;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display:block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    padding-top:20px;
+    margin-top:10px ;
+    margin-left: 100px;
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 50px 20px;
+}
+
+
+/* Additional styling based on sections */
+#prof .profile img{
+    height:32%;
+    width:32%;
+    margin-left: 1200px;
+    margin-right: -200px;
+    margin-top: 20px;
+    border-radius: 70%;
+    
+}
+.welcome {
+    height:100%;
+    width:50%;
+    text-align:left;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 100px;
+    background-color: rgba(157, 0, 255, 0.349);
+    margin-top: -600px;
+    margin-left: 20px;
+    background: url('img.jpeg') center/cover no-repeat; 
+    opacity: 0.9;/* Set background image to cover the entire div */
+    color: white; /* Set text color to white for better readability */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /* margin-right: 1200px; */
+
+
+}
+.welcome h1{
+    font-size: 50px;
+    text-align:start;
+    padding-top:10px;
+    margin-top: -80px;
+    opacity: 5;
+    margin-left: -50px;
+    position: relative; /* Add position relative */
+    z-index: 2;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.welcome p{
+    font-size: 30px;
+    text-align:start;
+    word-spacing: 2px;
+    position: relative; /* Add position relative */
+    z-index: 1;
+    opacity: 1;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.about-me {
+    height:100%;
+    width:10;
+    text-align:left;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 100px;
+    background-color: rgba(157, 0, 255, 0.349);
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    background: url('img.jpeg') center/cover no-repeat;
+    opacity: 0.9;
+    color: white; /* Set text color to white for better readability */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /* margin-right: 1200px; */
+
+}
+.about-me h2 {
+    font-size: 50px;
+    text-align:start;
+    padding-top:10px;
+    margin-top: -80px;
+    opacity: 0.9;
+    position: relative; /* Add position relative */
+    z-index: 1;
+    margin-left: -50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.about-me p{
+    font-size: 30px;
+    text-align:start;
+    word-spacing: 2px;
+    opacity: 0.9;
+    position: relative; /* Add position relative */
+    z-index: 1;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.portfolio {
+    height:100%;
+    width:10;
+    text-align:left;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 100px;
+    background-color: rgba(157, 0, 255, 0.349);
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background: url('img.jpeg') center/cover no-repeat;
+    opacity: 0.9; /* Set background image to cover the entire div */
+    color: white; /* Set text color to white for better readability */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /* margin-right: 1200px; */
+
+}
+.portfolio h2{
+    font-size: 50px;
+    text-align:start;
+    padding-top:10px;
+    margin-top: -80px;
+    margin-left: -50px;
+    opacity: 0.9;
+    position: relative; /* Add position relative */
+    z-index: 1;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.portfolio p{
+    font-size: 30px;
+    text-align:start;
+    word-spacing: 2px;
+    opacity: 0.9;
+    position: relative; /* Add position relative */
+    z-index: 1;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.contact {
+    height:40%;
+    width:85%;
+    text-align:left;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 100px;
+    background-color: rgba(157, 0, 255, 0.349);
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 200px;
+    background: url('img.jpeg') center/cover no-repeat;
+    opacity: 0.9; /* Set background image to cover the entire div */
+    color: white; /* Set text color to white for better readability */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    /* margin-right: 1200px; */ 
+}
+.contact h2{
+    font-size: 50px;
+    text-align:start;
+    padding-top: 10px;
+    margin-top:-200px;
+    opacity: 0.9;
+    margin-left: -50px;
+    margin-bottom: 200px;
+    position: relative; /* Add position relative */
+    z-index: 1;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+}
+
+.contact p{
+    font-size: 30px;
+    text-align:start;
+    padding-top:60px;
+    margin-top: -20px;
+    opacity: 0.9;
+    margin-left: -20px;
+    position: relative; /* Add position relative */
+    z-index: 1;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+}
+.contact p2{
+    font-size: 30px;
+    text-align:start;
+    padding-top:60px;
+    margin-top:-300px;
+    opacity: 0.9;
+    margin-left: -50px;
+    position: relative; /* Add position relative */
+    z-index: 1;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+}
+.contact a{
+    color: white;
+text-decoration: none;
+margin-top: -200px;
+}
+.call{
+    /* padding-left: 280px; */
+    margin-left: 00px;
+}
+
+.contact a:hover{
+   text-decoration: underline;
+}
+
+
+/* .welcome::after,
+.about-me::after,
+.portfolio::after,
+.contact::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('img.jpeg') center/cover no-repeat; /* Set background image to cover the entire div */
+    /* opacity: 0.5;
+    border-radius: 10px; 
+}  */
+
+/* Add more styles as needed */
